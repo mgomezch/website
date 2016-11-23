@@ -7,7 +7,6 @@ services:
       context: "services/web"
     environment:
       REDIRECT: "https://registry.jsonresume.org/mgomezch"
-      STATUS_CODE: "307"
 
   haproxy:
     image: "bradjonesllc/docker-haproxy-letsencrypt"
