@@ -1,0 +1,5 @@
+server {
+    server_name localhost;
+    listen 80;
+    return {{ .Env.STATUS_CODE }} {{ .Env.REDIRECT }};
+}
