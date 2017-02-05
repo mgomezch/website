@@ -1,0 +1,3 @@
+[submodule "services/web/resume"]
+	path = services/web/resume
+	url = https://github.com/mgomezch/resume

@@ -1,5 +1,3 @@
-FROM ianneub/redirect
+FROM nginx
 
-COPY default.conf.tmpl /app/default.conf.tmpl
-
-ENV STATUS_CODE=307
+COPY resume/mgomezch-resume.html /usr/share/nginx/html/index.html
