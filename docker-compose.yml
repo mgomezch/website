@@ -5,8 +5,7 @@ services:
   web:
     build:
       context: "services/web"
-    environment:
-      REDIRECT: "https://registry.jsonresume.org/mgomezch"
+    image: "mgomezch/website"
 
   haproxy:
     image: "bradjonesllc/docker-haproxy-letsencrypt"
